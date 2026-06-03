@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/WujecDamian/odin-Simple-express-app/issues"
   },
-  "homepage": "https://github.com/WujecDamian/odin-Simple-express-app#readme"
+  "homepage": "https://github.com/WujecDamian/odin-Simple-express-app#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
