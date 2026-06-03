@@ -1,0 +1,21 @@
+{
+  "name": "odin-simple-express-app",
+  "version": "1.0.0",
+  "description": "https://www.theodinproject.com/lessons/node-path-nodejs-introduction-to-express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WujecDamian/odin-Simple-express-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/WujecDamian/odin-Simple-express-app/issues"
+  },
+  "homepage": "https://github.com/WujecDamian/odin-Simple-express-app#readme"
+}
