@@ -23,6 +23,14 @@ const validateUser = [
     .withMessage("Is required")
     .isEmail()
     .withMessage(`Must be an email`),
+  body("age")
+    .trim()
+    .optional()
+    .isNumeric()
+    .withMessage("Must be a number")
+    .isInt({ min: 18, max: 120 })
+    .withMessage("Must be between 18 and 120"),
+  body("bio").trim().isAlphanumeric().optional().isLength({ min: 0, max: 200 }),
 ];
 
 // We can pass an entire array of middleware validations to our controller.
